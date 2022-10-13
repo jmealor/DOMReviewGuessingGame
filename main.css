@@ -1,0 +1,80 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image: url(brick.jpg);
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+}
+
+#playBoard{
+    width: 75vw;
+    height: 75vh;
+}
+
+#bigHeader{
+    color: rgb(187, 16, 187);
+    font-family: monospace;
+    font-size: 40px;
+}
+
+#informativeWords{
+    color: rgb(187, 16, 187);
+}
+
+#playerInputArea{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+#playerGuessZone{
+    border-radius: 10rem;
+    height: 15rem;
+    width: 15rem;
+    border: solid turquoise;
+    background-color: rgb(138, 123, 138);
+    text-align: center;
+    color: yellow;
+    padding: 10px;
+    font-size: 20px;
+}
+
+::placeholder{
+    color: purple;
+}
+
+button{
+    margin-top: -20px;
+    border-radius: 2rem;
+    border: solid turquoise;
+    background-color: tomato;
+    padding: 5px;
+    font-size: 20px;
+}
+
+.guess{
+    border: solid turquoise;
+}
+
+ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    color: turquoise;
+    justify-content: space-evenly;
+    padding: 50px;
+}
+
+li{
+    background-color: rgb(138, 123, 138);
+    width: 5%;
+}
+
+#menuButtons{
+    display: flex;
+    justify-content: space-evenly;
+}
